@@ -8,6 +8,8 @@ def run_eda_app ():
 
     df = pd.read_csv("./Data/Final.csv")
 
+    st.dataframe(df);
+
 
 
     
